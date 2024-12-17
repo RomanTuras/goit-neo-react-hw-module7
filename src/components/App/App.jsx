@@ -5,7 +5,7 @@ import ContactList from "../ContactList/ContactList.jsx";
 import SearchBox from "../SearchBox/SearchBox.jsx";
 import ContactForm from "../ContactForm/ContactForm.jsx";
 import NoContactsMsg from "../NoContactsMsg/NoContactsMsg.jsx";
-import { fetchContacts } from "../../redux/operations.js";
+import { fetchContacts } from "../../redux/contactsOps.js";
 import { getError, getIsLoading } from "../../redux/selectors.js";
 import Loader from "../Loader/Loader.jsx";
 import ErrorMessage from "../ErrorMessage/ErrorMessage.jsx";
